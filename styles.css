@@ -25,9 +25,10 @@ header {
 }
 
 .health-bar {
-    background-color: #42d806;
+    background-color: #43c42f;
     width: 45%;
     height: 30px;
+    position: relative;
 }
 
 .player-hp {
@@ -54,6 +55,25 @@ header {
     width: 0%;
     float: right;
     transition: all 200ms
+}
+
+.name-tag {
+    position: absolute;
+    top: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 1px;
+    
+}
+
+.player-tag {
+    left: 18px;
+}
+
+.cpu-tag {
+    right: 18px;
 }
 
 
@@ -138,6 +158,7 @@ header h1 {
     text-shadow: 4px 4px #000;
     text-transform: uppercase;
 }
+
 
 .result {
     text-transform: uppercase;
