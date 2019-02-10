@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cachipun Fighter</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+
+        <div id="p-hp" class="health-bar player-hp">
+            <div class="player-dmg"></div>
+        </div>
+
+        <div class="score-board">
+            <span id="player-score"></span>:<span id="cpu-score"></span>
+        </div>
+
+        <div id="c-hp" class="health-bar cpu-hp">
+            <div class="cpu-dmg"></div>
+        </div>
+
+    </header>
+
+    <section class="middle-section">
+        <p class="combo-counter-player"></p>
+        <p class="combo-counter-cpu"></p>
+        <div class="result">
+            <p class="result-option">Test Your Luck</p>
+            <p class="result-message"></p>
+        </div>
+    </section>
+
+    <section class="input-section">
+        <div class="choices">
+            <div class="choice" id="r">
+                <img src="images/rock.png" alt="">
+            </div>
+            <div class="choice" id="p">
+                <img src="images/paper.png" alt="">
+            </div>
+            <div class="choice" id="s">
+                <img src="images/scissors.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!--<p id="action-message">Make your move.</p>-->
+
+    <!--Game Over-->
+    <div class="gameover-screen">
+        <div class="container">
+            <h1 class="gameover-title">Game Over</h1>
+            <button onclick="resetGame()" class="reset-game">Restart <i class="fas fa-undo"></i></button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
