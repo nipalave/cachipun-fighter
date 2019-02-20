@@ -59,11 +59,11 @@ header {
 
 .name-tag {
     position: absolute;
-    top: 2px;
+    top: 1px;
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 21px;
     letter-spacing: 1px;
     
 }
@@ -314,8 +314,8 @@ header h1 {
 }
 
 .reset-game {
-    background-color: #EE5A24;
-    border-color: #EE5A24;
+    background-color: #ff003d;
+    border-color: #ff003d;
     color: #fff;
     font-size: 25px;
     font-weight: 700;
@@ -326,7 +326,7 @@ header h1 {
 }
 
 .reset-game:hover {
-    background-color: #df4811;
-    border-color: #df4811;
+    background-color: #dd0035;
+    border-color: #dd0035;
 }
 
